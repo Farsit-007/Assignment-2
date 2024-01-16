@@ -108,14 +108,14 @@
         color: #131318;
         text-align: center;
         font-family: Mulish;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 800;
     }
 
     .pop-c-p {
         color: rgba(19, 19, 24, 0.70);
         font-family: Mulish;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
     }
 
@@ -186,7 +186,7 @@
         color: #131318;
         text-align: center;
         font-family: Mulish;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 800;
 
     }
@@ -195,7 +195,7 @@
         color: rgba(19, 19, 24, 0.70);
         text-align: center;
         font-family: Mulish;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
 
     }
@@ -369,6 +369,11 @@
         height: auto;
 
     }
+    .banner-input-field,
+    .popular-tour,
+    .Newsletter {
+        flex-direction: column;
+    }
 
     .checkbtn {
         display: block;
@@ -470,14 +475,14 @@
         color: #131318;
         text-align: center;
         font-family: Mulish;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 800;
     }
 
     .pop-c-p {
         color: rgba(19, 19, 24, 0.70);
         font-family: Mulish;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
     }
 
