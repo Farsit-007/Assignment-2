@@ -61,7 +61,7 @@
         font-weight: 800;
     }
 
-    .sp-1 {
+    .span-1 {
         color: #FF5400;
         font-family: Mulish;
         font-size: 21.543px;
@@ -75,14 +75,14 @@
     }
 
     .header-banner-title-container {
-        padding: 20px;
+        padding: 15px;
         width: 100%;
     }
 
     .header-title {
         color: #FFF;
         font-family: Mulish;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 800;
     }
     .banner-input-field {
@@ -297,10 +297,13 @@
     .hr {
         color: #131318;
         font-family: Mulish;
-        font-size: 32px;
+        font-size: 22px;
         font-weight: 800;
     }
   
+    .spanp-1{
+        font-size: 22px;
+    }
 
     .card-1-z {
         grid-column: 1/span 1;
