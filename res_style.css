@@ -1,3 +1,5 @@
+/* Responsive For Small Device */
+
 @media screen and (max-width:600px) {
 
     header {
@@ -321,51 +323,8 @@
 }
 
 
+/* Responsive For Medium Device */
 
-@media screen and (min-width:860px) and (max-width:992px) {
-    .nav-title {
-        color: #131318;
-        font-family: Mulish;
-        font-size: 31px;
-        font-weight: 800;
-    }
-    .span-1 {
-        color: #FF5400 !important;
-        font-family: Mulish;
-        font-size: 30px;
-        font-weight: 800;
-    }
-    .nav-rt-list ul li:first-child a {
-        color: #FF5400;
-        text-align: center;
-        font-family: Mulish;
-        font-size: 15px;
-        font-weight: 700;
-    }
-    .nav-rt-list ul li a {
-        text-decoration: none;
-        color: #424247;
-        text-align: center;
-        font-family: Mulish;
-        font-size: 15px;
-        font-weight: 400;
-    }
-    .hb_input {
-        border-radius: 8px;
-       
-        width: 112px;
-        height: 52px;
-        padding: 7px;
-        outline: none;
-        border: none;
-        
-        font-family: Mulish;
-        font-size: 13px;
-        font-weight: 400;
-        margin: 0px 5px;
-        transition: all 1s;
-    }
-}
 @media screen and (min-width:600px) and (max-width:860px) {
     header {
         width: 100%;
@@ -721,3 +680,51 @@
     }
 
 }
+
+/* Responsive For Large Device */
+
+@media screen and (min-width:860px) and (max-width:992px) {
+    .nav-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 31px;
+        font-weight: 800;
+    }
+    .span-1 {
+        color: #FF5400 !important;
+        font-family: Mulish;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .nav-rt-list ul li:first-child a {
+        color: #FF5400;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .nav-rt-list ul li a {
+        text-decoration: none;
+        color: #424247;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .hb_input {
+        border-radius: 8px;
+       
+        width: 112px;
+        height: 52px;
+        padding: 7px;
+        outline: none;
+        border: none;
+        
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0px 5px;
+        transition: all 1s;
+    }
+}
+
