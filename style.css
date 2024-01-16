@@ -577,9 +577,47 @@
 
 /* Deals & Discounts Section End --> */
 
+/* Bonus Section Start --> */
 
+.revi-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.revi-1 img{
+    width: 30%;
+    height: 20%;
+}
+.c-im{
+    border-radius: 50%;
+    object-fit: contain;
+}
 
+.card-1-z {
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    grid-column: 1/span 6;
+    grid-row: 2/span 1;
+}
 
+.card-2-y {
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    grid-column: 7/span 6;
+    grid-row: 2/span 1;
+}
+
+.card-3-x {
+    width: 75%;
+    border-radius: 16px;
+    padding: 20px;
+    grid-column: 4/span 9;
+    grid-row: 1/span 1;
+}
+
+/* Bonus Section End --> */
 
 /* Perfect Place Section Start --> */
 

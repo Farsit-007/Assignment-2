@@ -297,3 +297,380 @@
     }
 
 }
+
+
+
+@media screen and (min-width:860px) and (max-width:992px) {
+    .nav-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 31px;
+        font-weight: 800;
+    }
+    .span-1 {
+        color: #FF5400 !important;
+        font-family: Mulish;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .nav-rt-list ul li:first-child a {
+        color: #FF5400;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .nav-rt-list ul li a {
+        text-decoration: none;
+        color: #424247;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .hb_input {
+        border-radius: 8px;
+       
+        width: 112px;
+        height: 52px;
+        padding: 7px;
+        outline: none;
+        border: none;
+        
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0px 5px;
+        transition: all 1s;
+    }
+}
+@media screen and (min-width:600px) and (max-width:860px) {
+    header {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-container {
+        margin: 0 auto;
+    }
+    .nav-rt-list ul li a {
+        color: white;
+    }
+
+    header nav ul {
+        position: fixed;
+        width: 100%;
+        top: 90px;
+        left: -200%;
+        transition: all .8s;
+        background: rgba(0, 0, 0, 0.842);
+    }
+
+    .nav-rt-list ul {
+        flex-direction: column;
+        justify-content: start;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .nav-rt-list ul {
+        padding-left: 60px;
+    }
+
+    header nav ul li:last-child {
+
+        margin-bottom: 20px;
+    }
+
+    header nav ul li {
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .nav-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .sp-1 {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .banner-input-field{
+        flex-direction: column;
+    }
+
+    .header-banner-title-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .header-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .header-sub-title {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 1px;
+    }
+
+    .hb_input {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .pop-content,
+    .pop-image {
+        width: 100%;
+
+    }
+
+    .pop-c-h1 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .pop-c-p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    .des-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .item-1 {
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+        height: 250px;
+    }
+
+    .item-2 {
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+        height: 250px;
+    }
+
+    .item-3 {
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+        height: 250px;
+    }
+
+    .item-4 {
+        grid-column: 1/ span 1;
+        grid-row: 4/span 1;
+        height: 250px;
+
+    }
+
+    .item-5 {
+        grid-column: 1/ span 1;
+        grid-row: 5/span 1;
+        height: 250px;
+
+    }
+
+    .item-6 {
+        grid-column: 1/ span 1;
+        grid-row: 6/span 1;
+        height: 250px;
+    }
+
+    .item-7 {
+        grid-column: 1/ span 1;
+        grid-row: 7/span 1;
+        height: 250px;
+    }
+
+    .item-1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .item-2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .item-3 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .item-4 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .item-5 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .item-6 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .item-7 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .des-content {
+        width: 100%;
+    }
+
+    .des-h1 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 30px;
+        font-weight: 800;
+
+    }
+
+    .des-p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .des-item-h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-1-z {
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+
+    .card-2-y {
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+
+    }
+
+    .card-3-x {
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+        width: 100%;
+    }
+
+
+
+    .dis-card-h1 {
+        font-size: 20px;
+    }
+
+    .dis-card-p {
+        font-size: 14px;
+    }
+
+    .dis-card-h4 {
+        font-size: 16px;
+    }
+
+    .dis-card {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .dis-banner-1 {
+        align-items: end;
+    }
+
+    .dis-banner-2 {
+        align-items: end;
+    }
+
+    .dis-banner-3 {
+        align-items: end;
+    }
+
+
+    .newt-image img {
+        width: 100%;
+    }
+
+    .pop-back-img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .newt-image {
+        height: 500px;
+        width: 100%;
+    }
+
+    .pop-back-img-h1 {
+        width: 60%;
+    }
+
+    .footer-sec {
+        width: 90%;
+    }
+
+    .hr {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+}
