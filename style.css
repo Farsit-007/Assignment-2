@@ -269,6 +269,12 @@
 
 /* Destination Section Start --> */
 
+.des-gallery img:hover{
+        filter: brightness(1.15);
+        transform: scale(1.05);
+    
+}
+
 .des-content {
     width: 55%;
     margin: 0 auto;
@@ -311,7 +317,7 @@
 .des-gallery img {
     width: 100%;
     height: 100%;
-    ;
+    transition: 500ms;
 }
 
 .des-item-h1 {
