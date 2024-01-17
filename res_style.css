@@ -84,6 +84,7 @@
         font-family: Mulish;
         font-size: 22px;
         font-weight: 800;
+        margin-top: 8px;
     }
     .banner-input-field {
         padding: 5px;
@@ -96,6 +97,7 @@
         font-size: 14px;
         font-weight: 400;
         padding-bottom: 1px;
+        padding-top: 14px;
     }
 
     .hb_input {
@@ -323,6 +325,22 @@
     }
 
 
+}
+
+@media screen and (max-width:290px) {
+    .header-sub-title {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 0px;
+        padding-top: 16px;
+        margin-bottom: -10px;
+    }
+    .header-title {
+        margin-top: 0px;
+    }
 }
 
 
