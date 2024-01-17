@@ -693,6 +693,14 @@
         font-size: 31px;
         font-weight: 800;
     }
+    .banner-input-field {
+        
+        margin: 5px auto 0px;
+       
+    }
+    .header-banner-title-container {
+        padding-top: 50px;
+    }
     .span-1 {
         color: #FF5400 !important;
         font-family: Mulish;
