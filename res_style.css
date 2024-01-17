@@ -763,5 +763,8 @@
         font-weight: 800;
 
     }
+    .des-content {
+        width: 100%;
+    }
 }
 
